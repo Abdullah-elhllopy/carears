@@ -1,0 +1,125 @@
+
+.owl-prev{
+    margin-left: 120%;
+}
+.owl-next{
+    margin-left: 95%;
+    margin-top: -60px;
+    position: absolute;
+}
+.owl-prev i::before{
+    content: "\f053";
+}
+.owl-next i::before{
+    content: "\f054";
+    position: relative;
+    z-index: 10000;
+}
+
+.item{
+    width: 210px;
+    height: 150px;
+    background: #232323;
+    border-radius: 4.68775px;
+}
+.active{
+    width: 210px !important;
+    margin-right: 15px !important;
+
+}
+.owl-item{
+    width: 210px !important;
+    margin-right: 15px !important;
+
+}
+.card{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.card img{
+width: 70px;
+height: 70px;
+border-radius: 5px;
+}
+.card-title-product h6{
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+color: #FFFFFF;
+
+}
+.card p{
+height: 14px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+color: rgba(255, 255, 255, 0.6);
+margin-bottom: 13px;
+margin-top: 10px;
+}
+ .span-price{
+    height: 14px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.span-date{
+font-family: SF Pro Rounded;
+font-style: normal;
+font-weight: 800;
+font-size: 8px;
+line-height: 16px;
+color: rgba(255, 255, 255, 0.6);
+
+    
+}
+.img-col h6{
+width: 90px;
+height: 14px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+margin-top: 12px;
+color: rgba(255, 255, 255, 0.6);
+}
+.Description h4{
+margin-top: 10px;
+width: 183px;
+height: 15px;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+color: rgba(255, 255, 255, 0.6);
+}
+@media(max-width: 768px) {
+    .edvora {
+       margin-left: 0;
+    }
+    .owl-next{
+        margin-left: 0%;
+        right: 0;
+        
+    }
+    .owl-prev{
+        margin-left: 0%;
+        left: 0;
+        margin-top: -60px;
+    }
+    .edvora .edvora-title{
+        display: none;
+    }
+    .edvora .edvora-products{
+        display: none;
+    }
+}

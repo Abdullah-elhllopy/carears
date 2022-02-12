@@ -1,0 +1,93 @@
+.input-fil{
+    background-color: #131313;
+    width: 228px;
+    height: 275px;
+    margin-left: 20px;
+    margin-top: 43px;
+    border-radius: 15px;
+}
+.input-filter{
+    background-color: #131313;
+    margin-top: 20px;
+    width: 158px;
+    margin-left: 30px;
+    color: #A5A5A5;
+    outline: none;
+    border:none;
+    border-bottom:1px solid #CBCBCB;
+   
+    
+}
+.input-filter::placeholder{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #A5A5A5;
+    bottom: 5px;
+    
+}
+  .custom-select select{
+    width: 168.45px;
+    height: 37.5px;
+    margin-left: 25px;
+    margin-top: 20px;
+    background: #232323;
+    border-radius: 4.68775px;
+    text-align: left;
+    z-index: 200;
+  }
+.custom-select2 select{
+    width: 168.45px;
+    height: 37.5px;
+    left: 25px;
+    top: 140px;
+    background: #232323;
+    border-radius: 4.68775px;
+    text-align: left;
+    z-index: 200;
+}
+.custom-select3 select{
+  width: 168.45px;
+  height: 37.5px;
+  left: 25px;
+  top: 190px;
+  background: #232323;
+  border-radius: 4.68775px;
+  text-align: left;
+  z-index: 200;
+
+}
+
+  select{
+    transition: all 200ms linear;
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 15px;
+    margin: 2px 0;
+    text-align: left;
+    text-decoration: none;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    -ms-flex-pack: distribute;
+    width: 144px;
+    height: 22px;
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+  }
+
+ 
+ 
+  

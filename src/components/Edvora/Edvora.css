@@ -1,0 +1,86 @@
+.edvora{
+  margin-left: -50px;
+  margin-top: 34px;
+}
+
+.edvora .edvora-title{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.87);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.edvora .edvora-products{
+    width: 97px;
+    height: 30px;
+    margin-top: 10px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*product style */
+
+.product h5{
+width: 160px;
+height: 31px;
+margin-top: 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+.product hr{
+    color: white;
+    margin-top: 9px;
+    width: 984px;
+
+}
+.edvora .product .products{
+    background: #131313;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+@media(max-width: 768px) {
+    .edvora {
+       margin-left: 0;
+    }
+    .owl-next{
+        margin-left: 0%;
+        right: 0;
+        
+    }
+    .owl-prev{
+        margin-left: 0%;
+        left: 0;
+        margin-top: -60px;
+    }
+    .edvora .edvora-title{
+        display: none;
+    }
+    .edvora .edvora-products{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
